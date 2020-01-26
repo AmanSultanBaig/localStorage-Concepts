@@ -17,3 +17,7 @@ for (let i = 0; i < localStorage.length; i++) {
     let keys = localStorage.key(i);
     console.log(keys+': '+localStorage.getItem(keys))
 }
+
+// How to remove Clear localStorage
+// localStorage.clear()
+localStorage.clear(); // will clear all values from localStorage
