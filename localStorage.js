@@ -11,3 +11,9 @@ localStorage.getItem('Key'); // access by the key which you set while created va
 // localStorage.removeItem()
 localStorage.removeItem('Key');
 
+// Access Value by keys
+// localStorage.key();
+for (let i = 0; i < localStorage.length; i++) {
+    let keys = localStorage.key(i);
+    console.log(keys+': '+localStorage.getItem(keys))
+}
